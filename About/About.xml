@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Wimwowd</name>
+	<author>dninemfive</author>
+	<packageId>dninemfive.uwu</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<displayName>Harmony</displayName>
+			<packageId>brrainz.harmony</packageId>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+	<description>A mod which cowects Wimwowd's spewing issues.</description>
+</ModMetaData>
