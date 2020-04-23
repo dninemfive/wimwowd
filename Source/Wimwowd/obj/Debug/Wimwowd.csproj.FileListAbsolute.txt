@@ -1,0 +1,7 @@
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Wimwowd\Assemblies\uwu.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Wimwowd\Assemblies\uwu.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Wimwowd\Source\Wimwowd\obj\Debug\Wimwowd.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Wimwowd\Source\Wimwowd\obj\Debug\Wimwowd.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Wimwowd\Source\Wimwowd\obj\Debug\Wimwowd.csproj.CopyComplete
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Wimwowd\Source\Wimwowd\obj\Debug\uwu.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Wimwowd\Source\Wimwowd\obj\Debug\uwu.pdb
