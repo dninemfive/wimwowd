@@ -8,6 +8,13 @@ using Verse;
 
 namespace Wimwowd
 {
+    /*
+     * TODO:
+     *  so, you'll need to patch three things: Keys, RulePacks, and Def overrides
+     *  Fix techprint error
+     *  Tips? (probably under def overrides)
+     */
+
     [StaticConstructorOnStartup]
     public class HawmonyPatch
     {
@@ -21,8 +28,9 @@ namespace Wimwowd
         class UwUpatch
         {
             [HarmonyPostfix]
-            public void TranslatePostfix(ref TaggedString __result)
+            public static void TranslatePostfix(string key, ref TaggedString __result)
             {
+                if (key == __result.ToString()) return;
                 // __result = __result.Replace("[lr]", "w").Replace("[LR]", "W").Replace("WW", "W").Replace("[Ww]w", "w"); // string.Replace doesn't support regex smdh
                 __result = __result.Replace("l", "w")
                                    .Replace("r", "w")

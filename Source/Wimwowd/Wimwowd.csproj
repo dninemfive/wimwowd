@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.0.0.10, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Lib.Harmony.2.0.0.10\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -64,6 +65,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>del *.pdb</PostBuildEvent>
+    <PostBuildEvent>del *.pdb
+copy * "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\uwu\Assemblies"</PostBuildEvent>
   </PropertyGroup>
 </Project>
